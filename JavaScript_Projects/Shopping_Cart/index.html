@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store page</title>
+    <link rel="stylesheet" href="store.css">
+</head>
+<body>
+    <div class="sidebar" id="sidebar-box">
+        <button id="close-sidebar">Close</button>
+        <h2>Cart</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul>
+    </div>
+    <h1>Store</h1>
+    <div id="store">
+        <div class="item">
+            <h2>Item 1</h2>
+            <p>Price: $10</p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="item">
+            <h2>Item 2</h2>
+            <p>Price: $20</p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="item">
+            <h2>Item 3</h2>
+            <p>Price: $30</p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="item">
+            <h2>Item 4</h2>
+            <p>Price: $40</p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="item">
+            <h2>Item 1</h2>
+            <p>Price: $10</p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="item">
+            <h2>Item 2</h2>
+            <p>Price: $20</p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="item">
+            <h2>Item 3</h2>
+            <p>Price: $30</p>
+            <button class="add-to-cart">Add to cart</button>
+        </div>
+        <div class="item">
+            <h2>Item 4</h2>
+            <p>Price: $40</p>
+            <button class="add-to-cart" onclick="add =>{
+                console.log('clicked');
+            }">Add to cart</button>
+        </div>
+    </div>
+    <h1>Cart</h1>
+    <div id="cart">
+        <div id="Itemized-cart">
+
+        <p id="total">Total:</p>
+        </div>
+        <p id="Empty-Cart">Cart is empty</p>
+    </div>
+    <script src="store.js"></script>
+    
+</body>
+</html>

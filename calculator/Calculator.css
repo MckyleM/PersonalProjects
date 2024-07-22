@@ -1,0 +1,9 @@
+.Calculator{
+    float: middle;
+    width: 100px;
+    height: 500%;
+    margin: 200px;
+    margin-left: 800px;
+    padding: 10px;
+    background-color: red !important;
+}
